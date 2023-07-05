@@ -50,7 +50,7 @@ const Home = () => {
           <div className="right">
             <Carousel>
               {
-                aboutImg.map((item) => <img src={item.img} />)
+                aboutImg.map((item) => <img src={item.img} alt="img" />)
               }
             </Carousel>
           </div>
